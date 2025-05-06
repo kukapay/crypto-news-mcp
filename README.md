@@ -5,6 +5,7 @@ An MCP server that provides real-time cryptocurrency news sourced from [NewsData
 ![GitHub](https://img.shields.io/github/license/kukapay/crypto-news-mcp) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kukapay/crypto-news-mcp) 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+[![smithery badge](https://smithery.ai/badge/@kukapay/crypto-news-mcp)](https://smithery.ai/server/@kukapay/crypto-news-mcp)
 
 ## Features
 
@@ -19,6 +20,14 @@ An MCP server that provides real-time cryptocurrency news sourced from [NewsData
 - Git (for cloning the repository)
 
 ## Installation
+
+### Installing via Smithery
+
+To install Crypto News for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/crypto-news-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/crypto-news-mcp --client claude
+```
 
 1. **Clone the Repository**:
    ```bash
@@ -96,4 +105,3 @@ An MCP server that provides real-time cryptocurrency news sourced from [NewsData
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
