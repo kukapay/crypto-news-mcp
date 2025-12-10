@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - newsApiKey
+    properties:
+      newsApiKey:
+        type: string
+        description: Newsdata.io API key for fetching cryptocurrency news
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({command: 'python', args: ['main.py'], env: {NEWS_API_KEY: config.newsApiKey}})
+  exampleConfig:
+    newsApiKey: your_newsdata_api_key_here
