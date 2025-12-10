@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-crypto-news-mcp-badge.png)](https://mseep.ai/app/kukapay-crypto-news-mcp)
+
 # Crypto News MCP Server
 
 An MCP server that provides real-time cryptocurrency news sourced from [NewsData](https://newsdata.io/) for AI agents.
