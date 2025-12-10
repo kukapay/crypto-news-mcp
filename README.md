@@ -6,6 +6,8 @@ An MCP server that provides real-time cryptocurrency news sourced from [NewsData
 ![GitHub last commit](https://img.shields.io/github/last-commit/kukapay/crypto-news-mcp) 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
+*Try [Kukapay News MCP](https://github.com/kukapay/kukapay-news-mcp) — no API key required, fully AI-annotated*.
+
 ## Features
 
 - **Tool: Latest News Headlines** - Fetch the most recent cryptocurrency news headlines.
