@@ -15,6 +15,10 @@ An MCP server that provides real-time cryptocurrency news sourced from [NewsData
 - **Tool: Crypto News Search** - Search for news articles by cryptocurrency or keyword with pagination support using the `nextPage` API feature.
 - **Prompt: News Summary** - Generate a prompt to summarize news for a given cryptocurrency or topic.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/kukapay-crypto-news-mcp).
+
 ## Prerequisites
 
 - Python 3.10+
